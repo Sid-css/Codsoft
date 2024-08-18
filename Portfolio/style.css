@@ -86,7 +86,7 @@ nav ul li {
     width: 30vw;
     object-fit: fill;
     border-radius: 5px;
-    border: 3px solid #fa8072;
+    border: 3px solid #ff2052;
 }
 
 main hr {
@@ -120,7 +120,7 @@ main hr {
     height: 70vh;
     width: 40vw;
     margin-top: 18px;
-    border: 3px solid #fa8072;
+    border: 3px solid #ff2052;
     border-radius: 15px;
 
 }
@@ -163,10 +163,33 @@ main hr {
 
 .thirdleft {
     width: 40%;
-    font-size: 30px;
+    margin: 30px 0 0 100px;
+    font-size: 40px;
     font-family: netflix;
     color: #ff2052;
-    
+
+}
+
+.iotpara {
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+#compo {
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+#soft {
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
 }
 
 .thirdright {
@@ -174,11 +197,42 @@ main hr {
     font-size: 30px;
     color: white;
 }
-.thirdright img{
+
+.thirdright img {
     height: 62vh;
     width: 38vw;
-    margin-top: 18px;
+    margin-top: 40px;
     object-fit: fill;
-    border: 3px solid #fa8072;
+    border: 3px solid #ff2052;
+    border-radius: 15px;
+}
+
+.forthsec {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.forthleft {
+    width: 40%;
+    font-size: 40px;
+    color: white;
+    margin: 80px 0 0 100px;
+    font-family: netflix;
+    color: #ff2052;
+}
+
+.forthright {
+    width: 40%;
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+}
+.forthright img{
+    height: 62vh;
+    width: 38vw;
+    margin-top: 40px;
+    object-fit: fill;
+    border: 3px solid #ff2052;
     border-radius: 15px;
 }
