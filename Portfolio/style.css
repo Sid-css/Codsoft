@@ -101,12 +101,12 @@ nav ul li {
     width: 100%;
     height: 100%;
     background-color: #ff2052;
-    background:
-        linear-gradient(130deg, #ff720e, #10e044 50%, yellow 90%, red 100%);
+    /* background:
+        linear-gradient(130deg, #ff720e, #10e044 50%, yellow 90%, red 100%); */
     z-index: -1;
     border-radius: 8px;
     padding: 6px;
-    animation: animate 2s linear infinite;
+    /* animation: animate 2s linear infinite; */
 }
 
 @keyframes animate {
@@ -152,7 +152,8 @@ main hr {
     position: relative;
 
 }
-.edu-parent::before{
+
+.edu-parent::before {
     content: '';
     position: absolute;
     top: -5px;
@@ -170,7 +171,7 @@ main hr {
 
 .edu-details1 {
     color: black;
-    background-color: #73cf82;
+    background-color: #b4b8ee;
     border-radius: 10px;
     list-style: none;
     font-size: 25px;
@@ -196,7 +197,8 @@ main hr {
     /* border: 2px solid #ff2052; */
     position: relative;
 }
-.edu-parent1::before{
+
+.edu-parent1::before {
     content: '';
     position: absolute;
     top: -5px;
@@ -214,7 +216,7 @@ main hr {
 
 .edu-details3 {
     color: black;
-    background-color: #73cf82;
+    background-color: #b4b8ee;
     border-radius: 10px;
     list-style: none;
     font-size: 25px;
@@ -249,14 +251,14 @@ main hr {
 .secleft {
     width: 40%;
     color: white;
-    position: relative;
 }
+
 
 
 .secleft img {
     height: 70vh;
-    width: 40vw;
-    margin-top: 18px;
+    width: 36vw;
+    margin: 18px 0 0 40px;
     border: 3px solid #ff2052;
     border-radius: 15px;
 
@@ -335,6 +337,8 @@ main hr {
     color: white;
 }
 
+
+
 .thirdright img {
     height: 62vh;
     width: 38vw;
@@ -388,4 +392,50 @@ main hr {
     object-fit: fill;
     border: 3px solid #ff2052;
     border-radius: 15px;
+}
+.fifth-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.fifth-left{
+    width: 40%;
+    font-size: 40px;
+    color: white;
+    margin: 20px 0 0 150px;
+    font-family: netflix;
+ 
+}
+.fifth-left iframe{
+    width: 40vw;
+    height: 100vh;
+ 
+}
+.fifth-right{
+    width: 40%;
+    font-size: 40px;
+    color: white;
+    margin: 250px 0 0 100px;
+    font-family: netflix;
+}
+
+.fifth-right p{
+     font-size: 30px;
+     margin: 10px 0 0 0;  
+}
+.fifth-right button{
+    width: 250px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(234, 81, 57);
+    position: relative;
+    cursor: pointer;
+    font-weight: 700;
+}
+.fifth-right button:active{
+    background: black;
+    transform: translate(2px 2px);
 }
