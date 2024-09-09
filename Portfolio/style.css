@@ -393,25 +393,29 @@ main hr {
     border: 3px solid #ff2052;
     border-radius: 15px;
 }
-.fifth-section{
+
+.fifth-section {
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
 }
-.fifth-left{
+
+.fifth-left {
     width: 40%;
     font-size: 40px;
     color: white;
     margin: 20px 0 0 150px;
     font-family: netflix;
- 
+
 }
-.fifth-left iframe{
+
+.fifth-left iframe {
     width: 40vw;
     height: 100vh;
- 
+
 }
-.fifth-right{
+
+.fifth-right {
     width: 40%;
     font-size: 40px;
     color: white;
@@ -419,11 +423,12 @@ main hr {
     font-family: netflix;
 }
 
-.fifth-right p{
-     font-size: 30px;
-     margin: 10px 0 0 0;  
+.fifth-right p {
+    font-size: 30px;
+    margin: 10px 0 0 0;
 }
-.fifth-right button{
+
+.fifth-right button {
     width: 250px;
     height: 40px;
     color: white;
@@ -435,7 +440,102 @@ main hr {
     cursor: pointer;
     font-weight: 700;
 }
-.fifth-right button:active{
+
+.fifth-right button:active {
     background: black;
     transform: translate(2px 2px);
+}
+
+.sixth-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.sixth-left {
+    width: 40%;
+    font-size: 40px;
+    color: white;
+    margin: 20px 0 0 150px;
+    font-family: netflix;
+}
+
+.sixth-left p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sixth-right {
+    width: 40%;
+    font-size: 40px;
+    color: white;
+    margin: 20px 0 0 150px;
+    font-family: netflix;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.insta-button {
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.insta-button img {
+    width: 40px;
+}
+
+.gmail-button {
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.gmail-button img {
+    width: 40px;
+}
+
+.github-button {
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.github-button img {
+    width: 42px;
+}
+
+.linkedin-button {
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.linkedin-button img {
+    width: 42px;
+}
+.sixth-right{
+    margin: 50px;
+}
+.sixth-right img {
+    height: 60vh;
+    width: 30vw;
+    border-radius: 50%;
+    margin: 0 0 0 50px;
 }
